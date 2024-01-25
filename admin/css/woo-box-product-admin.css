@@ -1,0 +1,11 @@
+.product_data_tabs .show_if_package{
+    display: none !important;
+}
+
+.product_data_tabs .show_if_package.show{
+    display: block !important;
+}
+
+#woocommerce-product-data ul.wc-tabs li.package_options a::before {
+    content: "\f480";
+}
